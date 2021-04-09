@@ -50,6 +50,7 @@ def color16mask(input_image,mask_image):
 	V_select = []
 	for _,index in enumerate(red_select):
 
+		index = int(index)
 		r_value =  red_select[index]
 		g_value = green_select[index]
 		b_value = blue_select[index]
